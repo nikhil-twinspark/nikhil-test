@@ -33,7 +33,7 @@
  * In production mode, flash messages redirect after a time interval.
  * In development mode, you need to click the flash message to continue.
  */
-    Configure::write('debug', 0);
+    Configure::write('debug', 2);
 
 /**
  * Configure the Error handler used to handle errors for your application. By default
@@ -389,9 +389,9 @@ Cache::config('_cake_model_', array(
 ));
            
 //local domain
-define('Domain_Name','local.buzzydoc.com');
-define('Buzzy_Name','http://my.local.buzzydoc.com/');   
-define('Buzzy','my');                               
+define('Domain_Name','twinspark.co');
+define('Buzzy_Name','http://bd.twinspark.co/buzzy/');   
+define('Buzzy','bd');                               
 define('Staff_Name','/');
 //local key
 define('Facebook_APP_ID','1042211419137673');
