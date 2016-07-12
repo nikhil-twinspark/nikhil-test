@@ -8,7 +8,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'bdtwinsp_devuser',
 		'password' => 'BuzzyBuzzy@123',
-		'database' => 'bdtwinsp',
+		'database' => 'bdtwinsp_dev',
 	);
 }
 
